@@ -11,8 +11,6 @@ if input() =='Y':
     path = input().replace('\\',"/")
     print("New path: ", path)
 
-
-
 # Store file names
 files = [file for file in os.listdir(path) if os.path.isfile(path+'/'+file)]
 
